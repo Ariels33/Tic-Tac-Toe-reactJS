@@ -1,0 +1,58 @@
+button {
+  height: 100px;
+  width: 100px;
+  margin: 10PX;
+  font-size: 40px;
+  float: left;
+  text-align: center;
+}
+
+.table {
+  width: 360px;
+  height: 360px;
+  float: left;
+  position: absolute;
+  flex-direction: row;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 10px auto;
+	
+}
+
+button::selection {
+  background: none;
+}
+
+button:hover {
+  background-color: rgba(143, 241, 143, 0.726);
+}
+
+.reset {
+  font-size: 30px;
+  height: 50px;
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 10px;
+  
+}
+
+.winner {
+  font-size: 30px;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.winner2 {
+  font-size: 30px;
+  height: 50px;
+  margin-left: 90px;
+}
+
+.enterName {
+  font-size: 30px;
+  height: 50px;
+  width: 340px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
